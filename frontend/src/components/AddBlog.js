@@ -12,7 +12,7 @@ function AddBlog() {
     const add_blog = async(e)=>{
         e.preventDefault();
 
-        const res = await fetch('https://blog-post-flame.vercel.app/add-blog',{
+        const res = await fetch('https://blog-post-opal.vercel.app/add-blog',{
        method:'POST',
        body: JSON.stringify({
          image,title,content,author,likes
