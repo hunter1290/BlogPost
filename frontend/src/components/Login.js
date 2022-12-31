@@ -10,7 +10,7 @@ function Login() {
        const [password,setPassword] = useState("");
        const LoginUser = async(e)=>{
         e.preventDefault();
-               const res = await fetch("https://blog-post-flame.vercel.app/login-user",{
+               const res = await fetch("https://blog-post-opal.vercel.app/login-user",{
                  method:'post',
                  body:JSON.stringify({
                    email,password
