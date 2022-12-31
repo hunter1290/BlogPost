@@ -13,7 +13,7 @@ function SignUp() {
 
     const createUSer = async(e)=>{
       e.preventDefault();
-     const res = await fetch('https://blog-post-flame.vercel.app/signup-user',{
+     const res = await fetch('https://blog-post-opal.vercel.app/signup-user',{
        method:'POST',
        body: JSON.stringify({
          name,email,password
