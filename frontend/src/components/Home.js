@@ -8,7 +8,7 @@ function Home() {
  const [blog,setBlog] = useState(null);
  const navigate = useNavigate();
  const getBlog = async()=>{
-   const data = await fetch('https://blog-post-flame.vercel.app/get-blog');
+   const data = await fetch('https://blog-post-opal.vercel.app/get-blog');
    const Jdata =await data.json();
    console.log(Jdata);
    setBlog(Jdata);
